@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<section class="slider overly" style="background-image: url('/images/slider-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block">
+          <h1>Makes Working with Point Clouds & Photos Easy!</h1>
+          <a href="https://gscloud.azurewebsites.net/account/subscription" class="btn btn-main animated fadeInUp">Sign up for free</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <iframe src="https://player.vimeo.com/video/444033385" style="width:100%;height:400px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+<div class="tabCommon">
+  <ul class="nav nav-tabs">
+     <li class="active"><a href="#free" data-toggle="tab" aria-expanded="false">Free</a></li>
+     <li><a href="#360" data-toggle="tab" aria-expanded="true">360</a></li>
+     <li><a href="#pro" data-toggle="tab" aria-expanded="false">Pro</a></li>
+     <li><a href="#bronze" data-toggle="tab" aria-expanded="false">Bronze</a></li>
+  </ul>
+  <div class="tab-content">
+     <div id="free" class="tab-pane fade active in">
+        <div class="row">
+          <div class="col-md-6">
+            <iframe src="https://player.vimeo.com/video/444053154" style="width:100%;height:400px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6 portfolio-item">
+            <img class="img-responsive rounded" src="/images/free.png" alt="Free">
+            <div class="portfolio-hover"><div class="portfolio-content"><a href="/images/free.png" class="portfolio-popup"><i class="icon ion-search"></i></a></div></div>
+          </div>
+        </div>  
+     </div>
+     <div id="360" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/444066949" style="width:100%;height:400px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive rounded" src="/images/360.png" alt="360">
+          <div class="portfolio-hover"><div class="portfolio-content"><a href="/images/360.png" class="portfolio-popup"><i class="icon ion-search"></i></a></div></div>
+        </div>
+      </div>
+     </div>
+     <div id="pro" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/444345771" style="width:100%;height:400px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive rounded" src="/images/pro.png" alt="Pro">
+          <div class="portfolio-hover"><div class="portfolio-content"><a href="/images/pro.png" class="portfolio-popup"><i class="icon ion-search"></i></a></div></div>
+        </div>
+      </div>
+     </div>
+     <div id="bronze" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/444852103" style="width:100%;height:400px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive rounded" src="/images/bronze.png" alt="Bronze">
+          <div class="portfolio-hover"><div class="portfolio-content"><a href="/images/bronze.png" class="portfolio-popup"><i class="icon ion-search"></i></a></div></div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+{{ partial "service.html" . }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}
